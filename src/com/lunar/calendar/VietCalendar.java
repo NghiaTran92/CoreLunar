@@ -77,7 +77,7 @@ public class VietCalendar {
 			TypeMenh.SonHaHoa,TypeMenh.Unknown,
 			TypeMenh.OcThuongTho,TypeMenh.Unknown
 		},
-		/*Can: �?inh*/
+		/*Can: Đinh*/
 		{
 			/* ty, suu,dan,mao,thin,ti_,ngo,mui,than,dau,tuat,hoi */
 			TypeMenh.Unknown,TypeMenh.GiangHaThuy,

@@ -30,7 +30,7 @@ public enum TypeCung {
 			return TypeNguHanh.Tho;
 		}
 	},
-	/** �?oài */
+	/** Đoài */
 	Doai {
 		@Override
 		public TypeNguHanh getNguHanh() {
@@ -84,7 +84,7 @@ public enum TypeCung {
 			result="Cấn";
 			break;
 		case Doai:
-			result="�?oài";
+			result="Đoài";
 			break;
 		case Ca_n:
 			result="Càn";

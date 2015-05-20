@@ -13,7 +13,7 @@ public enum TypeChi {
 	Thin,
 	/**Tị*/
 	Ti_,
-	/**Ng�?*/
+	/**Ng�?*/
 	Ngo,
 	/**Mùi*/
 	Mui,
@@ -33,7 +33,6 @@ public enum TypeChi {
 		case Ty:
 			result="Tý";
 			break;
-
 		case Suu:
 			result="Sửu";
 			break;
@@ -50,7 +49,7 @@ public enum TypeChi {
 			result="Tị";
 			break;
 		case Ngo:
-			result="Ng�?";
+			result="Ngọ";
 			break;
 		case Mui:
 			result="Mùi";

@@ -8,7 +8,7 @@ public enum TypeStar {
 	SinhKhi,
 	/** Sao Cự Môn thuộc Thổ – Thiên Y */
 	ThienY,
-	/** Sao Vũ Khúc thuộc Kim – Phúc �?ức (Diên niên) */
+	/** Sao Vũ Khúc thuộc Kim – Phúc Đức (Diên niên) */
 	PhucDuc,
 	/** Sao Phụ Bật thuộc Thuỷ – Phục Vị */
 	PhucVi,
@@ -33,13 +33,13 @@ public enum TypeStar {
 			result = "Thiên Y";
 			break;
 		case PhucDuc:
-			result = "Phúc �?ức";
+			result = "Phúc Đức";
 			break;
 		case PhucVi:
 			result = "Phục Vị";
 			break;
 		case HoaHai:
-			result = "H�?a Hải";
+			result = "Họa Hại";
 			break;
 		case LucSat:
 			result = "Lục Sát";

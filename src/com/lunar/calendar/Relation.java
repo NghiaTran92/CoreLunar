@@ -52,7 +52,7 @@ public class Relation {
 	
 	
 	/**
-	 * theo gi�? 12 con giáp
+	 * theo giờ 12 con giáp
 	 * BANG_CAN_LUONG_HOURS[chi]*/
 	private final int[] BANG_CAN_LUONG_HOURS=new int[]{
 			/*ty,suu,dan,mao,thin,,ti_,ngo,mui,than,dau,tuat,hoi*/

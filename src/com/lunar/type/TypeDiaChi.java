@@ -18,7 +18,7 @@ public enum TypeDiaChi {
 	TuTuyet,
 	/** Lục Hại */
 	LucHai,
-	/** Bình thư�?ng */
+	/** Bình thường */
 	Binh;
 
 	@Override

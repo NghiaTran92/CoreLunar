@@ -14,7 +14,7 @@ public enum TypeTruc {
 	Man,
 	/** Bình */
 	Binh,
-	/** �?ịnh */
+	/** Định */
 	Dinh,
 	/** Chấp */
 	Chap,
@@ -47,7 +47,7 @@ public enum TypeTruc {
 			result="Bình";
 			break;
 		case Dinh:
-			result="�?ịnh";
+			result="Định";
 			break;
 		case Chap:
 			result="Chấp";

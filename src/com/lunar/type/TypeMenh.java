@@ -3,36 +3,37 @@ package com.lunar.type;
 /*
  * Theo chu ki 60 nam
  * 
+ http://www.handheld.com.vn/threads/lam-the-nao-tinh-duoc-menh-cua-minh-tu-nam-sinh-am-lich.115368/
  - Giáp Tí, Ất Sửu : Hải Trung Kim
- - Giáp Dần, Ất Mão : �?ại Khê Thủy
- - Giáp Thìn, Ất Tỵ : Phú �?ăng Hoả
- - Giáp Ng�?, Ất Mùi : Sa Trung Kim
- - Giáp Thân, Ất Dậu : Tuy�?n Trung Thủy
- - Giáp Tuất, Ất Hợi : Sơn �?ầu Hoả
- - Bính Tí, �?inh Sửu : Giản Khê Thuỷ
- - Bính Dần, �?inh Mão : Lô Trung Hoả
- - Bính Thìn, �?inh Tỵ : Sa Trung Thổ
- - Bính Ng�?, �?inh Mùi : Thiên Hà Thuỷ
- - Bính Thân, �?inh Dậu : Sơn Hạ Hoả
- - Bính Tuất, �?inh Hợi : �?c Thượng Thổ
+ - Giáp Dần, Ất Mão : Đại Khê Thủy
+ - Giáp Thìn, Ất Tỵ : Phú Đăng Hoả
+ - Giáp Ngọ, Ất Mùi : Sa Trung Kim
+ - Giáp Thân, Ất Dậu : Tuyền Trung Thủy
+ - Giáp Tuất, Ất Hợi : Sơn Đầu Hoả
+ - Bính Tí, Đinh Sửu : Giản Khê Thuỷ
+ - Bính Dần, Đinh Mão : Lô Trung Hoả
+ - Bính Thìn, Đinh Tỵ : Sa Trung Thổ
+ - Bính Ngọ, Đinh Mùi : Thiên Hà Thuỷ
+ - Bính Thân, Đinh Dậu : Sơn Hạ Hoả
+ - Bính Tuất, Đinh Hợi : Ốc Thượng Thổ
  - Mậu Tí, Kỷ Sửu : Tích Lịch Hoả
- - Mậu Dần, Kỷ Mão : Thành �?ầu Thổ
- - Mậu Thìn, Kỷ Tỵ : �?ại Lâm Mộc
- - Mậu Ng�?, Kỷ Mùi : Thiên Thượng Hoả
- - Mậu Thân, Kỷ Dậu : �?ại Trạch Thổ
- - Mậu Tuất, Kỷ Hợi : Bình �?ịa Mộc
+ - Mậu Dần, Kỷ Mão : Thành Đầu Thổ
+ - Mậu Thìn, Kỷ Tỵ : Đại Lâm Mộc
+ - Mậu Ngọ, Kỷ Mùi : Thiên Thượng Hoả
+ - Mậu Thân, Kỷ Dậu : Đại Trạch Thổ
+ - Mậu Tuất, Kỷ Hợi : Bình Địa Mộc
  - Canh Tí, Tân Sửu : Bích Thượng Thổ
  - Canh Dần, Tân Mão : Tùng Bách Mộc
  - Canh Thìn, Tân Tỵ : Bạch Lạp Kim
- - Canh Ng�?, Tân Mùi : Lộ Biên Thổ
+ - Canh Ngọ, Tân Mùi : Lộ Biên Thổ
  - Canh Thân, Tân Dậu : Thạch Lựu Mộc
  - Canh Tuất, Tân Hợi : Thoa Xuyến Kim
  - Nhâm Tí, Quý Sửu : Tang Chá Mộc
  - Nhâm Dần, Quý Mão : Bạch Lạp Kim
- - Nhâm Thìn, Quý Tỵ : Trư�?ng Lưu Thuỷ
- - Nhâm Ng�?, Quý Mùi : Dương Liễu Mộc
+ - Nhâm Thìn, Quý Tỵ : Trường Lưu Thuỷ
+ - Nhâm Ngọ, Quý Mùi : Dương Liễu Mộc
  - Nhâm Thân, Quý Dậu : Kiếm Phong Kim
- - Nhâm Tuất, Quý Hợi : �?ại Hải Thuỷ
+ - Nhâm Tuất, Quý Hợi : Đại Hải Thuỷ
 
  * */
 public enum TypeMenh {
@@ -44,7 +45,7 @@ public enum TypeMenh {
 			return TypeNguHanh.Kim;
 		}
 	},
-	/** Lư Trung H�?a */
+	/** Lư Trung Hỏa */
 	LuTrungHoa {
 		@Override
 		public TypeNguHanh getNguHanh() {
@@ -52,7 +53,7 @@ public enum TypeMenh {
 			return TypeNguHanh.Hoa;
 		}
 	},
-	/** �?ại Lâm Mộc */
+	/** Đại Lâm Mộc */
 	DaiLamMoc {
 		@Override
 		public TypeNguHanh getNguHanh() {
@@ -76,7 +77,7 @@ public enum TypeMenh {
 			return TypeNguHanh.Kim;
 		}
 	},
-	/** Sơn �?ầu H�?a */
+	/** Sơn Đầu Hỏa */
 	SonDauHoa {
 		@Override
 		public TypeNguHanh getNguHanh() {
@@ -92,7 +93,7 @@ public enum TypeMenh {
 			return TypeNguHanh.Thuy;
 		}
 	},
-	/** Thành �?ầu Thổ */
+	/** Thành Đầu Thổ */
 	ThanhDauTho {
 		@Override
 		public TypeNguHanh getNguHanh() {
@@ -116,7 +117,7 @@ public enum TypeMenh {
 			return TypeNguHanh.Moc;
 		}
 	},
-	/** Tuy�?n Trung Thủy */
+	/** Tuyền Trung Thủy */
 	TuyenTrungThuy {
 		@Override
 		public TypeNguHanh getNguHanh() {
@@ -124,7 +125,7 @@ public enum TypeMenh {
 			return TypeNguHanh.Thuy;
 		}
 	},
-	/** �?c Thượng Thổ */
+	/** Ốc Thượng Thổ */
 	OcThuongTho {
 		@Override
 		public TypeNguHanh getNguHanh() {
@@ -132,7 +133,7 @@ public enum TypeMenh {
 			return TypeNguHanh.Tho;
 		}
 	},
-	/** Thích Lịch H�?a */
+	/** Thích Lịch Hỏa */
 	ThichLichHoa {
 		@Override
 		public TypeNguHanh getNguHanh() {
@@ -148,7 +149,7 @@ public enum TypeMenh {
 			return TypeNguHanh.Moc;
 		}
 	},
-	/** Trư�?ng Lưu Thủy */
+	/** Trường Lưu Thủy */
 	TruongLuuThuy {
 		@Override
 		public TypeNguHanh getNguHanh() {
@@ -164,7 +165,7 @@ public enum TypeMenh {
 			return TypeNguHanh.Kim;
 		}
 	},
-	/** Sơn Hạ H�?a */
+	/** Sơn Hạ Hỏa */
 	SonHaHoa {
 		@Override
 		public TypeNguHanh getNguHanh() {
@@ -172,7 +173,7 @@ public enum TypeMenh {
 			return TypeNguHanh.Hoa;
 		}
 	},
-	/** Bình �?ịa Mộc */
+	/** Bình Địa Mộc */
 	BinhDiaMoc {
 		@Override
 		public TypeNguHanh getNguHanh() {
@@ -196,7 +197,7 @@ public enum TypeMenh {
 			return TypeNguHanh.Kim;
 		}
 	},
-	/** Phúc �?ăng H�?a */
+	/** Phúc Đăng Hỏa */
 	PhucDangHoa {
 		@Override
 		public TypeNguHanh getNguHanh() {
@@ -212,7 +213,7 @@ public enum TypeMenh {
 			return TypeNguHanh.Thuy;
 		}
 	},
-	/** �?ại Trạch Thổ */
+	/** Đại Trạch Thổ */
 	DaiTrachTho {
 		@Override
 		public TypeNguHanh getNguHanh() {
@@ -228,7 +229,7 @@ public enum TypeMenh {
 			return TypeNguHanh.Kim;
 		}
 	},
-	/** Tang �?ố Mộc */
+	/** Tang Đố Mộc */
 	TangDoMoc {
 		@Override
 		public TypeNguHanh getNguHanh() {
@@ -236,7 +237,7 @@ public enum TypeMenh {
 			return TypeNguHanh.Moc;
 		}
 	},
-	/** �?ại Khê Thủy */
+	/** Đại Khê Thủy */
 	DaiKheThuy {
 		@Override
 		public TypeNguHanh getNguHanh() {
@@ -252,7 +253,7 @@ public enum TypeMenh {
 			return TypeNguHanh.Tho;
 		}
 	},
-	/** Thiên Thượng H�?a */
+	/** Thiên Thượng Hỏa */
 	ThienThuongHoa {
 		@Override
 		public TypeNguHanh getNguHanh() {
@@ -268,7 +269,7 @@ public enum TypeMenh {
 			return TypeNguHanh.Moc;
 		}
 	},
-	/** �?ại Hải Thủy */
+	/** Đại Hải Thủy */
 	DaiHaiThuy {
 		@Override
 		public TypeNguHanh getNguHanh() {
@@ -321,10 +322,10 @@ public enum TypeMenh {
 			result = "Dương Liễu Mộc";
 			break;
 		case TuyenTrungThuy:
-			result = "Tuy�?n Trung Thủy";
+			result = "Tuyền Trung Thủy";
 			break;
 		case OcThuongTho:
-			result = "�?c Thượng Thổ";
+			result = "Ốc Thượng Thổ";
 			break;
 		case ThichLichHoa:
 			result = "Thích Lịch H�?a";
@@ -333,16 +334,16 @@ public enum TypeMenh {
 			result = "Tùng Bách Mộc";
 			break;
 		case TruongLuuThuy:
-			result = "Trư�?ng Lưu Thủy";
+			result = "Trường Lưu Thủy";
 			break;
 		case SaTrungKim:
 			result = "Sa Trung Kim";
 			break;
 		case SonHaHoa:
-			result = "Sơn Hạ H�?a";
+			result = "Sơn Hạ Hỏa";
 			break;
 		case BinhDiaMoc:
-			result = "Bình �?ịa Mộc";
+			result = "Bình Địa Mộc";
 			break;
 		case BichThuongTho:
 			result = "Bích Thượng Thổ";
@@ -351,10 +352,10 @@ public enum TypeMenh {
 			result = "Kim Bạc Kim";
 			break;
 		case PhucDangHoa:
-			result = "Phúc �?ăng H�?a";
+			result = "Phúc Đăng Hỏa";
 			break;
 		case ThienHaThuy:
-			result = "�?ại Trạch Thổ";
+			result = "Thiên Hà Thủy";
 			break;
 		case ThoaXuyenKim:
 			result = "Thoa Xuyến Kim";

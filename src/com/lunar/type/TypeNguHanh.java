@@ -12,7 +12,7 @@ public enum TypeNguHanh {
 	Moc,
 	/** Thủy */
 	Thuy,
-	/** H�?a */
+	/** Hỏa */
 	Hoa,
 	/** Thổ */
 	Tho,
@@ -33,7 +33,7 @@ public enum TypeNguHanh {
 			result = "Thủy";
 			break;
 		case Hoa:
-			result = "H�?a";
+			result = "Hỏa";
 			break;
 		case Tho:
 			result = "Thổ";

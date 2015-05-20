@@ -12,7 +12,7 @@ public enum TypeNhiThapBatTu {
 	Giac,
 	/** Cang */
 	Cang,
-	/** �?ê */
+	/** Đê */
 	De,
 	/** Phòng */
 	Phong,
@@ -22,7 +22,7 @@ public enum TypeNhiThapBatTu {
 	Vy,
 	/** Cơ */
 	Co,
-	/** �?ẩu */
+	/** Đẩu */
 	Dau,
 	/** Ngưu */
 	Nguu,
@@ -76,7 +76,7 @@ public enum TypeNhiThapBatTu {
 			result="Cang";
 			break;
 		case De:
-			result="�?ê";
+			result="Đê";
 			break;
 		case Phong:
 			result="Phòng";
@@ -91,7 +91,7 @@ public enum TypeNhiThapBatTu {
 			result="Cơ";
 			break;
 		case Dau:
-			result="�?ẩu";
+			result="Đẩu";
 			break;
 		case Nguu:
 			result="Ngưu";

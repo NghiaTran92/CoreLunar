@@ -19,7 +19,7 @@ public enum TypeCan {
 			result="Bính";
 			break;
 		case Dinh:
-			result="�?inh";
+			result="Đinh";
 			break;
 		case Mau:
 			result="Mậu";
