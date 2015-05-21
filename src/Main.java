@@ -93,7 +93,7 @@ public class Main {
 		Human human1,human2;
 		for(int i=0;i<31;i++){
 			human1=new Human(new DateTime(2010, 10, i+1,i,ran.randInt(0, 59)), TypeSex.Male);
-			human2=new Human(new DateTime(1994, 10, i+1,i,ran.randInt(0, 59)), TypeSex.Female);
+			human2=new Human(new DateTime(1992, 10, i+1,i,ran.randInt(0, 59)), TypeSex.Female);
 			
 			System.out.println("-------human1 ");
 			System.out.println("sex: "+human1.getSex());
