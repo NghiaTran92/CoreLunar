@@ -25,12 +25,19 @@ public class Human {
 	private TypeCung cung;
 	private TypeSex sex;
 	
-	private final int DEFAULT_TIME_ZONE=0;
+	private double DEFAULT_TIME_ZONE=0;
 	
+	/**
+	 * DEFAULT_TIME_ZONE=0;
+	 * */
 	public Human( DateTime birthDay, TypeSex sex ) {
-		super();
+		this(birthDay,sex,0);
+	}
+	
+	public Human( DateTime birthDay, TypeSex sex, double timeZone ) {
 		this.birthDay = birthDay;
 		this.sex = sex;
+		this.DEFAULT_TIME_ZONE=timeZone;
 		init();
 	}
 	

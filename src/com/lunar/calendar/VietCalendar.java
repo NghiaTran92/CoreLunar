@@ -631,10 +631,32 @@ public class VietCalendar {
 		} while (arc != last && i < 14);
 		return i - 1;
 	}
-
+	
+	/**
+	 * julianDay=VietCalendar.jdFromDate(birthDay.getDate(), birthDay.getMonth(), birthDay.getYear());
+		int[] s = VietCalendar.jdToDate(julianDay);
+		int[] l = VietCalendar.convertSolar2Lunar(s[0], s[1], s[2], DEFAULT_TIME_ZONE);
+	 * 
+	 * => 
+	 * convertSolarDate2LunarDate(int dd,int mm,int yy,double timeZone);
+	 * 
+	 * @param dd 
+	 * @param mm
+	 * @param yy
+	 * @param timeZone
+	 * @return array of [lunarDay, lunarMonth, lunarYear, leapOrNot]
+	 * 
+	 * */
+	public static int[] convertSolarDate2LunarDate(int dd,int mm,int yy,double timeZone){
+		int julianDay=VietCalendar.jdFromDate(dd, mm, yy);
+		int[] s = VietCalendar.jdToDate(julianDay);
+		return VietCalendar.convertSolar2Lunar(s[0], s[1], s[2], timeZone);
+	}
+	
+	
 	/**
 	 *
-	 * @param dd
+	 * @param dd 
 	 * @param mm
 	 * @param yy
 	 * @param timeZone
