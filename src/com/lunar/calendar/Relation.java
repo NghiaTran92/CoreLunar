@@ -72,6 +72,7 @@ public class Relation {
 	/**BANG_CAN_LUONG_MONTH[month]*/
 	private final int[] BANG_CAN_LUONG_MONTH = new int[] { 
 			6, 7, 18, 9, 5, 16, 9, 15, 18, 18, 9, 5 };
+			
 	/**
 	 * BANG_CAN_LUONG_YEAR[can][chi] hàng chục là lượng; hàng đon vị là chỉ -1
 	 * la ko xác định
