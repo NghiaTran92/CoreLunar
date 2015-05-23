@@ -1,5 +1,7 @@
 
-core lunar 
-thay doi readme
-2015_5_19
+#core lunar 
+REFERENCES
+http://www.informatik.uni-leipzig.de/~duc/amlich/
+
+
 
